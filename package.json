@@ -1,0 +1,14 @@
+{
+	"name": "foo",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"command": "bun run ./run-command.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}
